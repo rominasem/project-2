@@ -4,3 +4,22 @@ body{
     background-repeat: no-repeat;
   background-size: 100% ;
 }
+
+.heading {
+    text-align: center;
+    font-size: 80px ;
+    background-color: aliceblue;
+
+}
+
+ul {
+    list-style-type:none;
+
+}
+
+li {
+    padding: 40px;
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
