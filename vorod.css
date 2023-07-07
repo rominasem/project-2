@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: Sans;
+    src: url(Sans\ a4fran3.ttf); }
+
+
+body {
+    font-family: Sans ;
+    text-align: center;
+    font-size: 30px ;
+}
+
+
+.page{ background-color:orange;
+       margin-left: 500px;
+       margin-right: 500px;
+       border-radius: 20px;
+       padding-bottom: 150px;
+}
+h1 {
+   
+    color:white;
+}
+
+input {
+   line-height: 30px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+
+.button {
+    padding:20px 45px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
