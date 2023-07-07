@@ -1,25 +1,54 @@
 
-body{ 
-    background-image:url(images/crPasta.jpg);
-    background-repeat: no-repeat;
-  background-size: 100% ;
+
+
+@font-face {
+    font-family: Sans;
+    src: url(Sans\ a4fran3.ttf);
 }
 
-.heading {
+html { 
+  background: url(images/fastFood.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 1;
+}
+
+.heading { color: red;
+    font-family: Sans;
+    font-size: smaller;
+}
+
+body{
     text-align: center;
     font-size: 80px ;
-    background-color: aliceblue;
-
+    background-color: rgb(240, 248, 255, 0.7);
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 20px;
+    opacity: initial;
+    margin-bottom: 0px;
 }
 
 ul {
     list-style-type:none;
-
+  
+  
 }
 
 li {
+    font-family: Sans;
     padding: 40px;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 40px;
     text-align: center;
+    opacity: 1 ;
+
+} 
+
+a {
+    text-decoration: none;
+    color: red;
+
 }
